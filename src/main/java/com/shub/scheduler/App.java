@@ -25,13 +25,16 @@ public class App
     }
 
     @RequestMapping("/schedule")
-    public void Schedule(){
+    public String Schedule(){
 
         try{
             new MyScheduler().Schedule();
+            return "Scheduled";
         }catch (Exception e){
             System.out.println(e);
         }
+
+        return "Not Scheduled";
 
     }
 
