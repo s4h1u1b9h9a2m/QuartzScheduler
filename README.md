@@ -8,5 +8,5 @@
 - Ability to reschedule old triggers from DB.
 - Ability to schedule triggers.
 - APIs
- - /schedule to Schedule Sample Job
- - /getJobs to get the running Jobs
+  - /schedule to Schedule Sample Job
+  - /getJobs to get the running Jobs
